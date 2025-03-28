@@ -10,7 +10,28 @@
 }
 
 body {
+}
+
+.navbar{
     color: #D0F2DF;
-    
-   
+    display: flex;
+    gap: 96px;
+    padding: 30px 51px;
+    justify-content: space-between;
+}
+
+.jumbotron1 button{
+    font-weight: bold;
+    color: #D0F2DF;
+    background-color: #A60303;
+    padding: 15px 130px;
+    border-radius: 30px;
+}
+ 
+.footer button{
+    font-weight: bold;
+    color: #D0F2DF;
+    background-color: #A60303;
+    padding: 15px 130px;
+    border-radius: 30px;
 }
