@@ -18,6 +18,8 @@ body {
     gap: 96px;
     padding: 30px 51px;
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.227);
+    backdrop-filter: blur(15px);
 }
 
 .jumbotron1 button{
@@ -27,8 +29,37 @@ body {
     padding: 15px 130px;
     border-radius: 30px;
 }
+
+.background{
+    background-image: url(/assets/mobile-legends-melissa-and-yin-hd-wallpaper-uhdpaper.com-648@1@f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbotron1{
+    height: 560px;
+    width: 1153;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 92px 29px;
+}
  
-.footer button{
+.jumbotron1 p{
+color: #D0F2DF;
+font-size: 25px;
+text-align: center;
+}
+
+.jumbotron1 h1{
+    text-align: center;
+    color: #D0F2DF;
+    font-size: 55px;
+}
+
+.jumbotron2 button{
     font-weight: bold;
     color: #D0F2DF;
     background-color: #A60303;
