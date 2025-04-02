@@ -9,8 +9,8 @@
     outline: unset;
 }
 
-body {
-    color: transparent;
+html {
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -32,6 +32,13 @@ body {
     background-color: #A60303;
     padding: 15px 130px;
     border-radius: 30px;
+}
+
+.jumbotron1 button:hover {
+    background-color: #540000;
+    color: #d0f2df90;
+    cursor: pointer;
+    cursor: url(/assets/Ellipse\ 4.svg), auto;
 }
 
 .background {
@@ -111,7 +118,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-
 }
 
 .atlas {
@@ -124,6 +130,10 @@ body {
     padding: 15px 20px;
     flex-direction: column;
     gap: 10px;
+}
+
+.atlas:hover {
+    transform: ;
 }
 
 .atlas1 {
@@ -273,7 +283,8 @@ body {
     height: 388px;
     width: 355px;
     background-size: cover;
-    display: flex;}
+    display: flex;
+}
 
 .cici1 h3 {
     font-size: 30px;
@@ -377,19 +388,20 @@ body {
     font-weight: bold;
 }
 
-.MLBB{
+.MLBB {
     height: 189px;
     width: 284px;
     display: flex;
-    flex-direction:row ;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 0px 25px;
     gap: 11px;
 }
 
-.MLBB img{
-    height: 70px; ;
+.MLBB img {
+    height: 70px;
+    ;
     width: 70px;
     display: flex;
     flex-direction: row;
@@ -397,7 +409,7 @@ body {
     justify-content: center;
 }
 
-.MLBB h4{
+.MLBB h4 {
     font-weight: bolder;
     color: #D0F2DF;
     font-size: 27px;
