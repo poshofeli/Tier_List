@@ -13,6 +13,11 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: unset;
+    color: #D0F2DF;
+}
+
 .navbar {
     height: 121px;
     width: auto;
@@ -111,29 +116,26 @@ html {
 .tarjetas {
     padding: 30px 30px;
     background-color: #393939;
-    height: 710px;
-    width: 1153;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 20px;
+
 }
 
 .atlas {
     background-color: #3d3d3fe3;
     display: flex;
     border-radius: 30;
-    height: 634px;
-    width: 353.67px;
+    height: auto;
+    width: auto;
     border-radius: 30px;
     padding: 15px 20px;
     flex-direction: column;
     gap: 10px;
-}
-
-.atlas:hover {
-    transform: ;
 }
 
 .atlas1 {
@@ -142,7 +144,7 @@ html {
     gap: 10px;
 }
 
-.letrasa {
+.letras {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -151,8 +153,8 @@ html {
 .atlas1 img {
     border-radius: 30px;
     height: 388px;
-    width: 355px;
-    background-size: cover;
+    width: 100%;
+    object-fit: cover;
     display: flex;
 }
 
@@ -193,8 +195,8 @@ html {
     background-color: #3d3d3fe3;
     display: flex;
     border-radius: 30;
-    height: 634px;
-    width: 353.67px;
+    height: auto;
+    width: auto;
     border-radius: 30px;
     padding: 15px 20px;
     flex-direction: column;
@@ -216,8 +218,8 @@ html {
 .helcurt1 img {
     border-radius: 30px;
     height: 388px;
-    width: 355px;
-    background-size: cover;
+    width: 100%;
+    object-fit: cover;
     display: flex;
 }
 
@@ -258,8 +260,8 @@ html {
     background-color: #3d3d3fe3;
     display: flex;
     border-radius: 30;
-    height: 634px;
-    width: 353.67px;
+    height: auto;
+    width: auto;
     border-radius: 30px;
     padding: 15px 20px;
     flex-direction: column;
@@ -281,7 +283,7 @@ html {
 .cici1 img {
     border-radius: 30px;
     height: 388px;
-    width: 355px;
+    width: 100%;
     background-size: cover;
     display: flex;
 }
