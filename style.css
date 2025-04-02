@@ -301,37 +301,62 @@ body {
 }
 
 .footer {
+    height: 249px;
+    width: 1193px;
     background-color: #393939;
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    padding: 9px 5px;
+    gap: 44px;
+    padding: 30px 34px;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.especifico {
+    display: flex;
+    flex-direction: row;
+    width: 312px;
+    height: 189px;
+    gap: 22px;
+    padding: 5px 5px;
+    align-items: center;
 }
 
 .lineas {
+    align-items: center;
+    height: 145px;
+    width: 189px;
     color: #D0F2DF;
     display: flex;
     flex-direction: column;
     font-size: 20px;
     font-weight: normal;
-    padding: 50px
+    gap: 25px;
 }
 
 .roles {
+    align-items: center;
+    height: 145px;
+    width: 189px;
     color: #D0F2DF;
     display: flex;
     flex-direction: column;
     font-size: 20px;
     font-weight: normal;
-    padding: 50px;
+
 }
 
 .MLBB{
+    height: 189px;
+    width: 284px;
     display: flex;
-    flex-direction: row;
-    padding: 28 5px;
-} 
+    flex-direction:row ;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 25px;
+    gap: 11px;
+}
 
 .MLBB img{
     height: 70px; ;
@@ -343,6 +368,7 @@ body {
 }
 
 .MLBB h4{
+    font-weight: bolder;
     color: #D0F2DF;
     font-size: 27px;
     display: flex;
@@ -354,6 +380,20 @@ body {
 .play {
     display: flex;
     flex-direction: column;
-    padding: 15px 100px;
-    gap: 20px;
+    padding: unset;
+    gap: 10px;
+    height: 189px;
+    width: 401px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.play img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 220px;
 }
