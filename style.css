@@ -14,10 +14,13 @@ body {
 }
 
 .navbar {
+    height: 121px;
+    width: 1158px;
     color: #D0F2DF;
     display: flex;
     gap: 96px;
     padding: 30px 51px;
+    align-items: center;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.227);
     backdrop-filter: blur(15px);
@@ -32,6 +35,8 @@ body {
 }
 
 .background {
+    display: flex;
+    flex-direction: column;
     background-image: url(/assets/mobile-legends-melissa-and-yin-hd-wallpaper-uhdpaper.com-648@1@f.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,7 +108,10 @@ body {
     width: 1153;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 16px;
+
 }
 
 .atlas {
@@ -330,9 +338,20 @@ body {
     color: #D0F2DF;
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
-    gap: 25px;
+    gap: 10px;
+}
+
+.lineas ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.lineas div li {
+    font-weight: bold;
 }
 
 .roles {
@@ -342,9 +361,20 @@ body {
     color: #D0F2DF;
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
+    gap: 10px;
+}
 
+.roles ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.roles div li {
+    font-weight: bold;
 }
 
 .MLBB{
