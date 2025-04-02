@@ -15,7 +15,7 @@ body {
 
 .navbar {
     height: 121px;
-    width: 1158px;
+    width: auto;
     color: #D0F2DF;
     display: flex;
     gap: 96px;
@@ -110,7 +110,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 20px;
 
 }
 
@@ -310,7 +310,7 @@ body {
 
 .footer {
     height: 249px;
-    width: 1193px;
+    width: auto;
     background-color: #393939;
     display: flex;
     flex-direction: row;
