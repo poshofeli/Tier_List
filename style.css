@@ -9,10 +9,9 @@
     outline: unset;
 }
 
-body {
-}
+body {}
 
-.navbar{
+.navbar {
     color: #D0F2DF;
     display: flex;
     gap: 96px;
@@ -22,7 +21,7 @@ body {
     backdrop-filter: blur(15px);
 }
 
-.jumbotron1 button{
+.jumbotron1 button {
     font-weight: bold;
     color: #D0F2DF;
     background-color: #A60303;
@@ -30,14 +29,14 @@ body {
     border-radius: 30px;
 }
 
-.background{
+.background {
     background-image: url(/assets/mobile-legends-melissa-and-yin-hd-wallpaper-uhdpaper.com-648@1@f.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.jumbotron1{
+.jumbotron1 {
     height: 560px;
     width: 1153;
     display: flex;
@@ -45,24 +44,253 @@ body {
     justify-content: center;
     align-items: center;
     padding: 92px 29px;
-}
- 
-.jumbotron1 p{
-color: #D0F2DF;
-font-size: 25px;
-text-align: center;
+    gap: 70px;
 }
 
-.jumbotron1 h1{
+.jumbotron1 p {
+    color: #D0F2DF;
+    font-size: 25px;
+    text-align: center;
+}
+
+.jumbotron1 h1 {
     text-align: center;
     color: #D0F2DF;
     font-size: 55px;
 }
 
-.jumbotron2 button{
+.jumbotron2 {
+    height: 786px;
+    width: 1153;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 92px 29px;
+    background-image: url(/assets/julian-mobile-legends-hd-wallpaper-uhdpaper.com-436@3@b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 107px;
+}
+.jumbotron2 p {
+    color: #D0F2DF;
+    font-size: 25px;
+    text-align: center;
+}
+
+.jumbotron2 h2 {
+    text-align: center;
+    color: #D0F2DF;
+    font-size: 55px;
+}
+
+.jumbotron2 button {
     font-weight: bold;
     color: #D0F2DF;
     background-color: #A60303;
     padding: 15px 130px;
     border-radius: 30px;
+}
+
+.tarjetas {
+    padding: 30px 30px;
+    background-color: #393939;
+    height: 710px;
+    width: 1153;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}   
+
+.atlas {
+    background-color: #3d3d3fe3;
+    display: flex;
+    border-radius: 30;
+    height: 634px;
+    width: 353.67px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.atlas1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.letrasa {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.atlas1 img {
+    border-radius: 30px;
+    height: 388px;
+    width: 313.67px;
+    background-size: cover;
+}
+
+.atlas1 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #D0F2DF;
+}
+
+.atlas1 p{
+    font-size: 16px;
+    font-weight: 100px;
+    color: #D0F2DF;
+}
+
+.ROAMER p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #D0F2DF;
+}
+
+.ROAMER {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    color: #D0F2DF;
+    font-size: 19px;
+    gap: 50px;
+}
+
+.insigniasa {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}
+
+.helcurt {
+    background-color: #3d3d3fe3;
+    display: flex;
+    border-radius: 30;
+    height: 634px;
+    width: 353.67px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.helcurt1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.letrash {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.helcurt1 img {
+    border-radius: 30px;
+    height: 388px;
+    width: 313.67px;
+    background-size: cover;
+}
+
+.helcurt1 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #D0F2DF;
+}
+
+.helcurt1 p{
+    font-size: 16px;
+    font-weight: 100px;
+    color: #D0F2DF;
+}
+
+.JUNGLER p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #D0F2DF;
+}
+
+.JUNGLER {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    color: #D0F2DF;
+    font-size: 19px;
+    gap: 50px;
+}
+
+.insigniash {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}
+
+.cici {
+    background-color: #3d3d3fe3;
+    display: flex;
+    border-radius: 30;
+    height: 634px;
+    width: 353.67px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cici1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.letrasc {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cici1 img {
+    border-radius: 30px;
+    height: 388px;
+    width: 313.67px;
+    background-size: cover;
+}
+
+.cici1 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #D0F2DF;
+}
+
+.cici1 p{
+    font-size: 16px;
+    font-weight: 100px;
+    color: #D0F2DF;
+}
+
+.EXP p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #D0F2DF;
+}
+
+.EXP {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    color: #D0F2DF;
+    font-size: 19px;
+    gap: 50px;
+}
+
+.insigniasc {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
 }
