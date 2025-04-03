@@ -7,10 +7,13 @@
     padding: unset;
     border: unset;
     outline: unset;
+    cursor: url(/assets/Mouse\ pointer.svg), auto;
+    box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 a {
@@ -19,10 +22,11 @@ a {
 }
 
 .navbar {
-    height: 121px;
+    height: auto;
     width: auto;
     color: #D0F2DF;
     display: flex;
+    flex-direction: row;
     gap: 96px;
     padding: 30px 51px;
     align-items: center;
@@ -31,19 +35,18 @@ a {
     backdrop-filter: blur(15px);
 }
 
-.jumbotron1 button {
-    font-weight: bold;
-    color: #D0F2DF;
-    background-color: #A60303;
-    padding: 15px 130px;
-    border-radius: 30px;
-}
-
-.jumbotron1 button:hover {
-    background-color: #540000;
+.navbar li:hover{
+    cursor: url(/assets/Mouse\ pointer.svg), auto;
+    background-color: #393939;
+    border: #393939;
+    height: 50px;
+    width: 100px;
+    border-radius: 25%;
     color: #d0f2df90;
-    cursor: pointer;
-    cursor: url(/assets/Ellipse\ 4.svg), auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .background {
@@ -55,32 +58,52 @@ a {
     background-position: center;
 }
 
-.jumbotron1 {
+.jumbotron {
     height: 560px;
-    width: 1153;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 92px 29px;
-    gap: 50px;
+    gap: 30px;
 }
 
-.jumbotron1 p {
+.jumbotron div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.jumbotron p {
     color: #D0F2DF;
     font-size: 25px;
     text-align: center;
 }
 
-.jumbotron1 h1 {
+.jumbotron h1 {
     text-align: center;
     color: #D0F2DF;
     font-size: 55px;
 }
 
+.jumbotron button {
+    font-weight: bold;
+    color: #D0F2DF;
+    background-color: #A60303;
+    padding: 15px 130px;
+    border-radius: 30px;
+}
+
+.jumbotron button:hover {
+    cursor: url(/assets/Mouse\ pointer.svg), auto;
+    background-color: #540000;
+    color: #d0f2df90;
+}
+
 .jumbotron2 {
     height: 786px;
-    width: 1153;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,10 +136,17 @@ a {
     border-radius: 30px;
 }
 
+.jumbotron2 button:hover {
+    cursor: url(/assets/Mouse\ pointer.svg), auto;
+    background-color: #540000;
+    color: #d0f2df90;
+} 
+
 .tarjetas {
+    box-sizing: border-box;
     padding: 30px 30px;
     background-color: #393939;
-    height: auto;
+    height: 100%;
     width: auto;
     display: flex;
     flex-direction: row;
@@ -126,22 +156,27 @@ a {
 
 }
 
-.atlas {
+.tarjeta {
+    height: 653px;
+    width: 100%;
     background-color: #3d3d3fe3;
     display: flex;
     border-radius: 30;
     height: auto;
-    width: auto;
+    width: 100%;
     border-radius: 30px;
     padding: 15px 20px;
     flex-direction: column;
     gap: 10px;
 }
 
-.atlas1 {
+.in {
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 1px 1px;
 }
 
 .letras {
@@ -150,7 +185,7 @@ a {
     gap: 16px;
 }
 
-.atlas1 img {
+.in img {
     border-radius: 30px;
     height: 388px;
     width: 100%;
@@ -158,25 +193,25 @@ a {
     display: flex;
 }
 
-.atlas1 h3 {
+.in h3 {
     font-size: 30px;
     font-weight: bold;
     color: #D0F2DF;
 }
 
-.atlas1 p {
+.in p {
     font-size: 16px;
     font-weight: 100px;
     color: #D0F2DF;
 }
 
-.ROAMER p {
+.rol p {
     font-size: 30px;
     font-weight: bold;
     color: #D0F2DF;
 }
 
-.ROAMER {
+.rol {
     font-weight: bolder;
     display: flex;
     flex-direction: row;
@@ -185,137 +220,7 @@ a {
     gap: 50px;
 }
 
-.insigniasa {
-    display: flex;
-    flex-direction: row;
-    gap: 21px;
-}
-
-.helcurt {
-    background-color: #3d3d3fe3;
-    display: flex;
-    border-radius: 30;
-    height: auto;
-    width: auto;
-    border-radius: 30px;
-    padding: 15px 20px;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.helcurt1 {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.letrash {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.helcurt1 img {
-    border-radius: 30px;
-    height: 388px;
-    width: 100%;
-    object-fit: cover;
-    display: flex;
-}
-
-.helcurt1 h3 {
-    font-size: 30px;
-    font-weight: bold;
-    color: #D0F2DF;
-}
-
-.helcurt1 p {
-    font-size: 16px;
-    font-weight: 100px;
-    color: #D0F2DF;
-}
-
-.JUNGLER p {
-    font-size: 30px;
-    font-weight: bold;
-    color: #D0F2DF;
-}
-
-.JUNGLER {
-    font-weight: bolder;
-    display: flex;
-    flex-direction: row;
-    color: #D0F2DF;
-    font-size: 19px;
-    gap: 50px;
-}
-
-.insigniash {
-    display: flex;
-    flex-direction: row;
-    gap: 21px;
-}
-
-.cici {
-    background-color: #3d3d3fe3;
-    display: flex;
-    border-radius: 30;
-    height: auto;
-    width: auto;
-    border-radius: 30px;
-    padding: 15px 20px;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.cici1 {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.letrasc {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.cici1 img {
-    border-radius: 30px;
-    height: 388px;
-    width: 100%;
-    background-size: cover;
-    display: flex;
-}
-
-.cici1 h3 {
-    font-size: 30px;
-    font-weight: bold;
-    color: #D0F2DF;
-}
-
-.cici1 p {
-    font-size: 16px;
-    font-weight: 100px;
-    color: #D0F2DF;
-}
-
-.EXP p {
-    font-size: 30px;
-    font-weight: bold;
-    color: #D0F2DF;
-}
-
-.EXP {
-    font-weight: bolder;
-    display: flex;
-    flex-direction: row;
-    color: #D0F2DF;
-    font-size: 19px;
-    gap: 50px;
-}
-
-.insigniasc {
+.insignias {
     display: flex;
     flex-direction: row;
     gap: 21px;
@@ -344,7 +249,7 @@ a {
     align-items: center;
 }
 
-.lineas {
+.sub {
     align-items: center;
     height: 145px;
     width: 189px;
@@ -356,39 +261,17 @@ a {
     gap: 10px;
 }
 
-.lineas ul li {
+.sub ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
 }
 
-.lineas div li {
+.sub div li {
     font-weight: bold;
 }
 
-.roles {
-    align-items: center;
-    height: 145px;
-    width: 189px;
-    color: #D0F2DF;
-    display: flex;
-    flex-direction: column;
-    font-size: 25px;
-    font-weight: normal;
-    gap: 10px;
-}
-
-.roles ul li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-}
-
-.roles div li {
-    font-weight: bold;
-}
 
 .MLBB {
     height: 189px;
@@ -440,4 +323,9 @@ a {
     justify-content: center;
     height: 80px;
     width: 220px;
+}
+
+.play img:hover {
+    opacity: .5;
+
 }
