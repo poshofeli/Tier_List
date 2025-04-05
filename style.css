@@ -3,8 +3,8 @@
     font-size: 16px;
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: unset;
-    padding: unset;
+    margin: 0;
+    padding: 0;
     border: unset;
     outline: unset;
     cursor: url(/assets/Mouse\ pointer.svg), auto;
@@ -13,7 +13,7 @@
 
 html {
     scroll-behavior: smooth;
-    
+
 }
 
 a {
@@ -22,31 +22,36 @@ a {
 }
 
 .navbar {
+    flex-wrap: wrap;
     height: auto;
-    width: auto;
+    width: 100%;
     color: #D0F2DF;
     display: flex;
     flex-direction: row;
-    gap: 96px;
-    padding: 30px 51px;
+    gap: 50px;
+    padding: 25px 40px;
     align-items: center;
     justify-content: space-between;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.227);
     backdrop-filter: blur(15px);
+    box-sizing: border-box;
 }
 
-.navbar li:hover{
+.navbar li:hover {
     cursor: url(/assets/Mouse\ pointer.svg), auto;
-    background-color: #393939;
+    background-color: #a60303b4;
     border: #393939;
     height: 50px;
     width: 100px;
-    border-radius: 25%;
+    border-radius: 30%;
+    border: 5px;
     color: #d0f2df90;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: background-color 1.5s ease, color 0.1s ease;
 }
 
 .background {
@@ -59,7 +64,7 @@ a {
 }
 
 .jumbotron {
-    height: 560px;
+    height: 100%;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -69,7 +74,7 @@ a {
     gap: 30px;
 }
 
-.jumbotron div{
+.jumbotron div {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -99,10 +104,11 @@ a {
     cursor: url(/assets/Mouse\ pointer.svg), auto;
     background-color: #540000;
     color: #d0f2df90;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .jumbotron2 {
-    height: 786px;
+    height: 100%;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -140,39 +146,57 @@ a {
     cursor: url(/assets/Mouse\ pointer.svg), auto;
     background-color: #540000;
     color: #d0f2df90;
-} 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
 
 .tarjetas {
-    box-sizing: border-box;
-    padding: 30px 30px;
+    flex-wrap: wrap;
+    padding: 20px 30px;
     background-color: #393939;
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
 
 }
 
 .tarjeta {
-    height: 653px;
+    max-width: 280px;
     width: 100%;
+    height: auto;
     background-color: #3d3d3fe3;
     display: flex;
-    border-radius: 30;
-    height: auto;
-    width: 100%;
     border-radius: 30px;
     padding: 15px 20px;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
+    box-sizing: border-box;
+    box-shadow: 18px -1px 44px -9px rgba(0,0,0,0.7);
+}
+
+.tarjeta:hover {
+    cursor: url(/assets/Mouse\ pointer.svg), auto;
+    background-color: #540000;
+    color: #ffffff;
+    transition: background-color 0.5s ease, color 0.3s ease;
+    transform: scale(1.04);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tarjeta .in img:hover {
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    display: flex;
 }
 
 .in {
     height: auto;
-    width: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -187,66 +211,96 @@ a {
 
 .in img {
     border-radius: 30px;
-    height: 388px;
-    width: 100%;
+    height: 100%;
+    width: auto;
     object-fit: cover;
     display: flex;
 }
 
 .in h3 {
+    display: flex;
     font-size: 30px;
     font-weight: bold;
     color: #D0F2DF;
+    justify-content: center;
+    align-items: center;
 }
 
 .in p {
-    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;    
     font-weight: 100px;
     color: #D0F2DF;
 }
 
 .rol p {
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
     font-weight: bold;
     color: #D0F2DF;
 }
 
 .rol {
+    width: 100%;
+    height: auto;
     font-weight: bolder;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: #D0F2DF;
     font-size: 19px;
-    gap: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .insignias {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
     gap: 21px;
+    padding: 5px 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.insignias img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .footer {
-    height: 249px;
-    width: auto;
+    flex-direction: wrap;
+    height: auto;
+    width: 100%;
     background-color: #393939;
     display: flex;
     flex-direction: row;
     gap: 44px;
-    padding: 30px 34px;
+    padding: 20px 20px;
     align-items: center;
+    justify-content: space-between;
     justify-content: center;
-
+    box-sizing: border-box;
 }
 
 .especifico {
     display: flex;
     flex-direction: row;
-    width: 312px;
-    height: 189px;
+    width: auto;
+    height: 100%;
     gap: 22px;
     padding: 5px 5px;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .sub {
@@ -272,7 +326,6 @@ a {
     font-weight: bold;
 }
 
-
 .MLBB {
     height: 189px;
     width: 284px;
@@ -285,9 +338,9 @@ a {
 }
 
 .MLBB img {
-    height: 70px;
-    ;
-    width: 70px;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -321,11 +374,52 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80px;
-    width: 220px;
+    height: auto;
+    width: 100%;
 }
 
 .play img:hover {
     opacity: .5;
 
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .tarjeta {
+        max-width: 100%;
+    }
+
+
+    .jumbotron {
+        padding: 92px 29px;
+        gap: 30px;
+    }
+
+    .jumbotron2 {
+        padding: 92px 29px;
+        gap: 107px;
+    }
+
+    .tarjetas {
+        flex-wrap: wrap;
+        padding: 20px 30px;
+        background-color: #393939;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+    }
 }
