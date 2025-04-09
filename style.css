@@ -1,0 +1,425 @@
+* {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: unset;
+    outline: unset;
+    cursor: url(/assets/Mouse\ pointer.svg), auto;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: unset;
+    color: #D0F2DF;
+}
+
+.navbar {
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    color: #D0F2DF;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 25px 40px;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.227);
+    backdrop-filter: blur(15px);
+    box-sizing: border-box;
+}
+
+.navbar li:hover {
+    cursor: url(/assets/Mouse\ pointer.svg), auto;
+    background-color: #a60303b4;
+    border: #393939;
+    height: 50px;
+    width: 100px;
+    border-radius: 30%;
+    border: 5px;
+    color: #d0f2df90;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 1.5s ease, color 0.1s ease;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/mobile-legends-melissa-and-yin-hd-wallpaper-uhdpaper.com-648@1@f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbotron {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 92px 29px;
+    gap: 30px;
+}
+
+.jumbotron div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.jumbotron p {
+    color: #D0F2DF;
+    font-size: 25px;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    color: #D0F2DF;
+    font-size: 55px;
+}
+
+.jumbotron button {
+    font-weight: bold;
+    color: #D0F2DF;
+    background-color: #A60303;
+    padding: 15px 130px;
+    border-radius: 30px;
+}
+
+.jumbotron button:hover {
+    cursor: url(/assets/Mouse\ pointer.svg), auto;
+    background-color: #540000;
+    color: #d0f2df90;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.jumbotron2 {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 92px 29px;
+    background-image: url(/assets/julian-mobile-legends-hd-wallpaper-uhdpaper.com-436@3@b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 107px;
+}
+
+.jumbotron2 p {
+    color: #D0F2DF;
+    font-size: 25px;
+    text-align: center;
+}
+
+.jumbotron2 h2 {
+    text-align: center;
+    color: #D0F2DF;
+    font-size: 55px;
+}
+
+.jumbotron2 button {
+    font-weight: bold;
+    color: #D0F2DF;
+    background-color: #A60303;
+    padding: 15px 130px;
+    border-radius: 30px;
+}
+
+.jumbotron2 button:hover {
+    cursor: url(/assets/Mouse\ pointer.svg), auto;
+    background-color: #540000;
+    color: #d0f2df90;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tarjetas {
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    background-color: #393939;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.tarjeta {
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    background-color: #3d3d3fe3;
+    display: flex;
+    border-radius: 30px;
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+    box-shadow: 18px -1px 44px -9px rgba(0,0,0,0.7);
+}
+
+.tarjeta:hover {
+    cursor: url(/assets/Mouse\ pointer.svg), auto;
+    background-color: #540000;
+    color: #ffffff;
+    transition: background-color 0.5s ease, color 0.3s ease;
+    transform: scale(1.04);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tarjeta .in img:hover {
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    display: flex;
+}
+
+.in {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1px 1px;
+}
+
+.letras {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.in img {
+    border-radius: 30px;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    display: flex;
+}
+
+.in h3 {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: #D0F2DF;
+    justify-content: center;
+    align-items: center;
+}
+
+.in p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;    
+    font-weight: 100px;
+    color: #D0F2DF;
+}
+
+.rol p {
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #D0F2DF;
+}
+
+.rol {
+    width: 100%;
+    height: auto;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    color: #D0F2DF;
+    font-size: 19px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.insignias {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    padding: 5px 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.insignias img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.footer {
+    flex-direction: wrap;
+    height: auto;
+    width: 100%;
+    background-color: #393939;
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.especifico {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100%;
+    gap: 22px;
+    padding: 5px 5px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.sub {
+    align-items: center;
+    height: 145px;
+    width: 189px;
+    color: #D0F2DF;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: normal;
+    gap: 10px;
+}
+
+.sub ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.sub div li {
+    font-weight: bold;
+}
+
+.MLBB {
+    height: 189px;
+    width: 284px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 25px;
+    gap: 11px;
+}
+
+.MLBB img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+.MLBB h4 {
+    font-weight: bolder;
+    color: #D0F2DF;
+    font-size: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.play {
+    display: flex;
+    flex-direction: column;
+    padding: unset;
+    gap: 10px;
+    height: 189px;
+    width: 401px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.play img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.play img:hover {
+    opacity: .5;
+
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .tarjeta {
+        max-width: 100%;
+    }
+
+
+    .jumbotron {
+        padding: 92px 29px;
+        gap: 30px;
+    }
+
+    .jumbotron2 {
+        padding: 92px 29px;
+        gap: 107px;
+    }
+
+    .tarjetas {
+        flex-wrap: wrap;
+        padding: 20px 30px;
+        background-color: #393939;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+    }
+}
